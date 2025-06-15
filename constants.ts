@@ -30,14 +30,10 @@ export const SunIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) =>
       stroke: "currentColor",
       ...props,
     },
+    // Removed the incorrect first path element.
     React.createElement("path", {
-      strokeLinecap: "round",
+      strokeLinecap: "round", 
       strokeLinejoin: "round",
-      d: "M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-6.364-.386 1.591-1.591M3 12h2.25m.386-6.364 1.591 1.591M12 12a2.25 2.25 0 0 0-2.25 2.25c0 1.33.266 2.597.748 3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z",
-    }),
-    React.createElement("path", {
-      strokeLinecap: "round", // Corrected from stroke-linecap
-      strokeLinejoin: "round", // Corrected from stroke-linejoin
       d: "M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-6.364-.386 1.591-1.591M3 12h2.25m.386-6.364 1.591 1.591M12 12a2.25 2.25 0 0 0-2.25 2.25 2.25 2.25 0 0 0 2.25 2.25V12Z",
     })
   );
