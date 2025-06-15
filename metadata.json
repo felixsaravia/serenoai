@@ -1,5 +1,6 @@
 {
   "name": "SerenoIA: Sleep Wellness Companion",
   "description": "SerenoIA is an intelligent web application designed to help users understand and improve their sleep habits. It uses AI-powered analysis from Gemini to provide personalized sleep profiles, actionable recommendations, and tracks sleep patterns. The app also aims to offer mindfulness exercises and relaxing sounds to support better sleep.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "prompt": ""
 }
